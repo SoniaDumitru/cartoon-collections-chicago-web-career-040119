@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  # It should then print out each name, in number order, using puts. 
+  # It should then print out each name, in number order, using puts.
   array.each_with_index { |item, index|
       puts "#{index+1}. #{item}"
   }
