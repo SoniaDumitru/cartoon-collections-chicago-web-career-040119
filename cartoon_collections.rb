@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  # It should capitalize each element and add an exclamation point at the end. 
+  # It should capitalize each element and add an exclamation point at the end.
   # The return value of this method should be an array
     array.collect do |power|
     power.capitalize + "!"
